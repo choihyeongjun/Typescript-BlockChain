@@ -1,0 +1,21 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "repository": "https://github.com/choihyeongjun/Typescript-BlockChain.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "keywords": [],
+  "author": "최형준",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "tsc-watch": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2"
+  }
+}
